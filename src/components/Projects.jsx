@@ -74,7 +74,7 @@ const Projects = () => {
           }}
         >
           {projectsData.map((project, index) => (
-            <div key={index} className="relative flex-shrink-0 w-full sm:w-1/4">
+            <div key={index} className="relative flex-shrink-0 w-full sm:w-1/4 cursor-pointer">
               <img
                 src={project.image}
                 alt={project.title}

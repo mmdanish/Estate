@@ -29,7 +29,7 @@ const Testimonials = () => {
             className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
           >
             <img
-              className="w-20 h-20 rounded-full mx-auto mb-4"
+              className="w-20 h-20 rounded-full mx-auto mb-4 cursor-pointer"
               src={testimonial.image}
               alt={testimonial.alt}
             />
